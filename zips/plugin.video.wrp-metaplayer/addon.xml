@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.wrp-metaplayer" name="WRP-MetaPlayer" version="1.0.5~nightly2" provider-name="DWH/Kasi45">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="metadata.tvdb.com" version="3.0.14"/>
+        <import addon="script.module.futures" version="2.2.0"/>
+        <import addon="script.module.requests" version="2.19.1"/>
+        <import addon="script.module.requests-cache" version="0.4.13"/>
+        <import addon="script.module.pydevd-pycharm" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="context.py">
+                <label>WRP-MetaPlayer - Standard Player</label>
+                <visible>!String.StartsWith(ListItem.path,plugin://plugin.video.wrp-metaplayer/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+            </item>
+            <item library="context2.py">
+                <label>WRP-MetaPlayer - Player Auswahl</label>
+                <visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode)</visible>
+            </item>
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">TMDb, TVDb und Trakt Oberfläche mit Player Unterstützung</summary>
+        <description lang="de">Durchsuchen Sie die MovieDb, die TVDb, Trakt Datenbank und geben Sie die Informationen an die Bibliothek oder ein Addon weiter. Benötigt werden Player-Dateien und das entsprechende Addon, um die Dateien abzuspielen.</description>
+        <summary lang="en">TMDb, TVDb and Trakt surface with player support</summary>
+        <description lang="en">Browse The MovieDb, The TVDb, Trakt and pass info along to library or an addon. Needs player-files and the appropriate addon to play the files.</description>
+        <assets>
+            <icon>resources/art/icon.png</icon>
+            <fanart>resources/art/fanart.jpg</fanart>
+            <screenshot>resources/art/screenshot001.jpg</screenshot>
+            <screenshot>resources/art/screenshot002.jpg</screenshot>
+            <screenshot>resources/art/screenshot003.jpg</screenshot>
+            <screenshot>resources/art/screenshot004.jpg</screenshot>
+            <screenshot>resources/art/screenshot005.jpg</screenshot>
+            <screenshot>resources/art/screenshot006.jpg</screenshot>
+            <screenshot>resources/art/screenshot007.jpg</screenshot>
+            <screenshot>resources/art/screenshot008.jpg</screenshot>
+            <screenshot>resources/art/screenshot009.jpg</screenshot>
+        </assets>
+        <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+        <source>Source Code from Chaapai by Mr.Blamo and OpenMeta by OpenProject</source>
+        <news>
+[B]Version 1.0.5~nightly1[/B]
+ - fix TBDM
+
+[B]Version 1.0.5~nightly1[/B]
+ - fix updateManager 
+
+Release Update 17.11.2019
+[B]Version 1.0.4[/B]
+
+- Sprachen Auswahl für Tmdb und TVDb
+- updateManager für WRP-MetaPlayer und UrlResolver
+    ( unter Einstellungen / Aktualisierungen )
+- some fixes
+
+[B]Version 1.0.3[/B]
+
+- Update Übersetzungen
+- Update Funktion der Player Aktualisierung
+
+[B]Version 1.0.2[/B]
+
+- Update Übersetzungen
+- Überflüssigen Programm Code entfernt
+
+[B]Version 1.0.1[/B]
+
+- Übersetzungen in deutsch angepasst
+- Tmdb und TVDB Links für deutschen Content überarbeitet
+- Player Dateien erstellt und integriert
+
+[B]Version 1.0[/B]
+
+- Initial Release
+        </news>
+        <platform>all</platform>
+    </extension>
+</addon>

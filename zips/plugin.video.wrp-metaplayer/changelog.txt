@@ -1,0 +1,29 @@
+[B]Version 1.0.5~nightly1[/B]
+ - fix updateManager 
+
+[B]Version 1.0.4[/B]
+ - Sprachen Auswahl für Tmdb und TVDb
+ - updateManager für WRP-MetaPlayer und UrlResolver
+  ( unter Einstellungen / Aktualisierungen )
+ - some fixes
+
+
+[B]Version 1.0.3[/B]
+
+- Update Übersetzungen
+- Update Funktion der Player Aktualisierung
+
+[B]Version 1.0.2[/B]
+
+- Update Übersetzungen
+- Überflüssigen Programm Code entfernt
+
+[B]Version 1.0.1[/B]
+
+- Übersetzungen in deutsch angepasst
+- Tmdb und TVDB Links für deutschen Content überarbeitet
+- Player Dateien erstellt und integriert
+
+[B]Version 1.0[/B]
+
+- Initial Release
