@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.program.addons-updater"
+<addon id="plugin.program.addons.updater"
 		name="[COLOR blue]Addons Updater[/COLOR]"
 		version="1.0.2.3"
 		provider-name="[COLOR blue]loki1979 | renexyz[/COLOR]">
