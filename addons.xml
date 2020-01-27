@@ -32,7 +32,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.wrp-metaplayer" name="WRP-MetaPlayer" version="1.0.5~nightly5" provider-name="DWH/Kasi45">
+<addon id="plugin.video.wrp-metaplayer" name="WRP-MetaPlayer" version="1.0.6" provider-name="DWH/Kasi45">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="metadata.tvdb.com" version="3.0.14"/>
@@ -79,20 +79,27 @@
         <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
         <source>Source Code from Chaapai by Mr.Blamo and OpenMeta by OpenProject</source>
         <news>
+[B]Version 1.0.6[/B]
+- WRPinfo  integriert
+
+[B]Version 1.0.5~nightly5[/B]
+- fix some bugs
+
 [B]Version 1.0.5~nightly4[/B]
--fix menu_items
+- fix menu_items
+
 [B]Version 1.0.5~nightly3[/B]
 - fix translations
+
 [B]Version 1.0.5~nightly2[/B]
- - fix TBDM
+ - fix TMDb
 
 [B]Version 1.0.5~nightly1[/B]
  - fix updateManager
 
-Release Update 17.11.2019
 [B]Version 1.0.4[/B]
 
-- Sprachen Auswahl für Tmdb und TVDb
+- Sprachen Auswahl für TMDb und TVDb
 - updateManager für WRP-MetaPlayer und UrlResolver
     ( unter Einstellungen / Aktualisierungen )
 - some fixes
