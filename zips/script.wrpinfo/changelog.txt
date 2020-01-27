@@ -1,0 +1,10 @@
+
+[B]Version 1.0.1[/B]
+
+- WRP-MetaPlayer integriert
+- Pfade angepasst
+- Übersetzungen in deutsch
+
+[B]Version 1.0.0[/B]
+
+- Initial Release

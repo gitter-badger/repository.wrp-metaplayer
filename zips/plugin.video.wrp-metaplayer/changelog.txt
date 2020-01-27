@@ -1,12 +1,27 @@
+[B]Version 1.0.6[/B]
+- WRPinfo  integriert 
+
+[B]Version 1.0.5~nightly5[/B]
+- fix some bugs
+        
+[B]Version 1.0.5~nightly4[/B]
+- fix menu_items
+
+[B]Version 1.0.5~nightly3[/B]
+- fix translations
+
+[B]Version 1.0.5~nightly2[/B]
+ - fix TMDb
+
 [B]Version 1.0.5~nightly1[/B]
  - fix updateManager 
 
 [B]Version 1.0.4[/B]
- - Sprachen Auswahl für Tmdb und TVDb
- - updateManager für WRP-MetaPlayer und UrlResolver
-  ( unter Einstellungen / Aktualisierungen )
- - some fixes
 
+- Sprachen Auswahl für TMDb und TVDb
+- updateManager für WRP-MetaPlayer und UrlResolver
+    ( unter Einstellungen / Aktualisierungen )
+- some fixes
 
 [B]Version 1.0.3[/B]
 

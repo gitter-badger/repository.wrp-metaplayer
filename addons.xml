@@ -150,4 +150,50 @@
         </assets>
    	</extension>
 </addon>
+
+<addon id="script.wrpinfo" name="WRPInfo" version="1.0.1" provider-name="DWH">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+		<import addon="plugin.video.youtube" version="6.2.2"/>
+		<import addon="script.module.requests" version="2.9.1"/>
+		<import addon="script.skin.helper.service" version="1.0.0"/>
+		<import addon="resource.images.studios.white" version="0.0.18"/>
+		<import addon="plugin.video.wrp-metaplayer" version="1.0.0" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.script" library="script.py"/>
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="context.py">
+				<label>WRPInfo</label>
+				<visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,actor) | String.IsEqual(ListItem.dbtype,director)</visible>
+			</item>
+		</menu>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>false</reuselanguageinvoker>
+		<platform>all</platform>
+		<summary>Fork of the ExtendedInfo script from phil65 and OpenInfo</summary>
+		<description>This script offers various possibilities to display online content inside skins as well as a complete MovieDB browser including info dialogs for various media types. Needs skin implementation for lot of functions and WRP-MetaPlayer for library functions.</description>
+		<assets>
+			<icon>resources/art/icon.png</icon>
+			<fanart>resources/art/fanart.jpg</fanart>
+			<screenshot>resources/art/screenshot1.jpg</screenshot>
+			<screenshot>resources/art/screenshot2.jpg</screenshot>
+			<screenshot>resources/art/screenshot3.jpg</screenshot>
+		</assets>
+		<news>
+[B]Version 1.0.1[/B]
+  - fix languages
+  - translated in German
+
+[B]Version 1.0.0[/B]
+  - Initial Release
+  - modded for WRP-MetaPlayer
+		</news>
+	</extension>
+</addon>
 </addons>
