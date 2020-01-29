@@ -1,3 +1,8 @@
+[B]Version 1.0.2[/B]
+
+- Bibliotheks Fehler behoben
+- Skins angepasst
+- Übersetzungen in deutsch
 
 [B]Version 1.0.1[/B]
 
