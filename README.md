@@ -14,7 +14,7 @@ Willkommen in unserem Repository Archiv für den WRP-MetaPlayer. Hier erhaltet I
 
 ***
 
-[![Gitter](https://badges.gitter.im/DWH-WFC-Chat/community.svg)](https://gitter.im/DWH-WFC-Chat/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) Hier findet ihr Hilfe wenn es um den WRP-MetaPlayer geht.
+[![Gitter](https://badges.gitter.im/DWH-WFC-Chat/community.svg)](https://gitter.im/DWH-WFC-Chat/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![Join the chat at https://gitter.im/WRP-Lounge/community](https://badges.gitter.im/WRP-Lounge/community.svg)](https://gitter.im/WRP-Lounge/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) Hier findet ihr Hilfe wenn es um den WRP-MetaPlayer geht.
 
 ***
 
